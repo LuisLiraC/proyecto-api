@@ -1,0 +1,26 @@
+{
+  "name": "api_lol",
+  "version": "1.0.0",
+  "description": "The API where you can find information about each champion of the game.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "scrap": "node ./scraper/index.js",
+    "merge": "node ./scraper/mergeData.js"
+  },
+  "repository": "https://github.com/LuisLiraC/proyect-api",
+  "author": "LuisLiraC <luisliradev@gmail.com> (https://luislira.xyz/)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "mongodb": "3.5.5",
+    "pug": "2.0.4",
+    "puppeteer": "2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.1",
+    "yargs": "13.2.4"
+  }
+}

@@ -1,0 +1,157 @@
+[
+    {
+        "alias": "the darkin blade",
+        "name": "aatrox",
+        "role": "fighter",
+        "abilities": [
+            {
+                "type": "Passive",
+                "name": "deathbringer stance",
+                "description": "Periodically, Aatrox's next basic attack deals bonus physical damage and heals him, based on the target's max health.",
+                "image": "opgg-static.akamaized.net/images/lol/passive/Aatrox_Passive.png"
+            },
+            {
+                "type": "Q",
+                "name": "the darkin blade",
+                "description": "Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AatroxQ.png"
+            },
+            {
+                "type": "W",
+                "name": "infernal chains",
+                "description": "Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AatroxW.png"
+            },
+            {
+                "type": "E",
+                "name": "umbral dash",
+                "description": "Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AatroxE.png"
+            },
+            {
+                "type": "R",
+                "name": "world ender",
+                "description": "Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and movement speed. If he gets a takedown, this effect is extended.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AatroxR.png"
+            }
+        ],
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_8.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_9.jpg"
+        ],
+        "region": "Runeterra",
+        "champion_image": "opgg-static.akamaized.net/images/lol/champion/Aatrox.png"
+    },
+    {
+        "alias": "the nine-tailed fox",
+        "name": "ahri",
+        "role": "mage",
+        "abilities": [
+            {
+                "type": "Passive",
+                "name": "vastayan grace",
+                "description": "Whenever Ahri's spells hit a champion 2 times within a short period, she briefly gains movement speed.",
+                "image": "opgg-static.akamaized.net/images/lol/passive/Ahri_SoulEater2.png"
+            },
+            {
+                "type": "Q",
+                "name": "orb of deception",
+                "description": "Ahri sends out and pulls back her orb, dealing magic damage on the way out and true damage on the way back. After earning several spell hits, Ahri's next orb hits will restore her health.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AhriOrbofDeception.png"
+            },
+            {
+                "type": "W",
+                "name": "fox-fire",
+                "description": "Ahri releases three fox-fires, that lock onto and attack nearby enemies.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AhriFoxFire.png"
+            },
+            {
+                "type": "E",
+                "name": "charm",
+                "description": "Ahri blows a kiss that damages and charms an enemy it encounters, instantly stopping movement abilities and causing them to walk harmlessly towards her. The target temporarily takes increased damage from Ahri.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AhriSeduce.png"
+            },
+            {
+                "type": "R",
+                "name": "spirit rush",
+                "description": "Ahri dashes forward and fires essence bolts, damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AhriTumble.png"
+            }
+        ],
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_14.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_15.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_16.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_17.jpg"
+        ],
+        "region": "Ionia",
+        "champion_image": "opgg-static.akamaized.net/images/lol/champion/Ahri.png"
+    },
+    {
+        "alias": "the rogue assassin",
+        "name": "akali",
+        "role": "assassin",
+        "abilities": [
+            {
+                "type": "Passive",
+                "name": "assassin's mark",
+                "description": "Dealing spell damage to a champion creates a ring of energy around them. Exiting that ring empowers Akali's next autoattack with bonus range and damage.",
+                "image": "opgg-static.akamaized.net/images/lol/passive/Akali_P.png"
+            },
+            {
+                "type": "Q",
+                "name": "five point strike",
+                "description": "Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AkaliQ.png"
+            },
+            {
+                "type": "W",
+                "name": "twilight shroud",
+                "description": "Akali drops a cover of smoke and briefly gains Movement Speed. While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks. Attacking or using abilities will briefly reveal her.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AkaliW.png"
+            },
+            {
+                "type": "E",
+                "name": "shuriken flip",
+                "description": "Flip backward and fire a shuriken forward, dealing physical damage. The first enemy or smoke cloud hit is marked. Re-cast to dash to the marked target, dealing additional damage.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AkaliE.png"
+            },
+            {
+                "type": "R",
+                "name": "perfect execution",
+                "description": "Akali leaps in a direction, damaging enemies she strikes. Re-cast: Akali dashes in a direction, executing all enemies she strikes.",
+                "image": "opgg-static.akamaized.net/images/lol/spell/AkaliR.png"
+            }
+        ],
+        "skins": [
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_1.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_2.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_3.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_4.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_5.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_6.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_7.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_8.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_9.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_13.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_14.jpg",
+            "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_15.jpg"
+        ],
+        "region": "Ionia",
+        "champion_image": "opgg-static.akamaized.net/images/lol/champion/Akali.png"
+    }
+]
