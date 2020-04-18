@@ -17,15 +17,12 @@ async function getChampions() {
           getChampionData(champions[i], i)
         }
 
-        // getChampionData('skarner', 107) 
-        // Skarner is not on op.gg -- RIP :C
-        // getChampionData('wukong', 135) 
-        // Wukong is not on op.gg -- RIP :C
+        // getChampionData('skarner', 107) Skarner is not on op.gg -- RIP :C
       })
     } else {
       const browser = await puppeteer.launch()
       const page = await browser.newPage()
-      await page.goto('https://euw.leagueoflegends.com/en-gb/champions/',  { timeout: 0 })
+      await page.goto('https://euw.leagueoflegends.com/en-gb/champions/', { timeout: 0 })
       const data = await page.evaluate(() => {
         const champions = []
         document.querySelectorAll('.style__Text-sc-12h96bu-3').forEach(span => {
@@ -49,7 +46,7 @@ async function getChampions() {
 }
 
 const getChampionData = async (champion, index) => {
-  if (champion == 'skarner' || champion == 'wukong' || champion == undefined) {
+  if (champion == 'skarner' || champion == undefined) {
     return
   }
 
@@ -62,7 +59,7 @@ const getChampionData = async (champion, index) => {
     console.log('Champion data', champion)
     const data = await page.evaluate(() => {
       function getAbilityNameBecauseRiotForgotIt(ch) {
-        switch(ch) {
+        switch (ch) {
           case 'blitzcrank':
             return 'mana barrier'
         }
@@ -94,9 +91,9 @@ const getChampionData = async (champion, index) => {
     })
 
     console.log('Region', champion)
-    await page.goto(`https://universe.leagueoflegends.com/en_US/champion/${champion.replace('-', '')}/`, { timeout: 0 })
+    await page.goto(`https://universe.leagueoflegends.com/en_US/champion/${champion === 'wukong' ? 'monkeyking' : champion.replace('-', '')}/`, { timeout: 0 })
     data.region = await page.evaluate(() => {
-      if(document.querySelector('.factionText_EnRL').querySelector('h6').textContent != '') {
+      if (document.querySelector('.factionText_EnRL').querySelector('h6').textContent != '') {
         return document.querySelector('.factionText_EnRL').querySelector('h6').textContent.trim()
       } else {
         return document.querySelector('.factionText_EnRL').querySelector('h6').querySelector('span').textContent.trim()
@@ -104,7 +101,7 @@ const getChampionData = async (champion, index) => {
     })
 
     console.log('Imgs', champion)
-    await page.goto(`https://euw.op.gg/champion/${champion.replace('-', '')}`,  { timeout: 0 })
+    await page.goto(`https://euw.op.gg/champion/${champion.replace('-', '')}`, { timeout: 0 })
     const imgs = await page.evaluate(() => {
       const champion_image = document.querySelector('.champion-stats-header-info__image').querySelector('img').getAttribute('src').trim()
       const abilitiesImgs = []
